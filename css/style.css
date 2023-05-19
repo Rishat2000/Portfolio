@@ -1339,6 +1339,7 @@ button.swiper-pagination-bullet {
   cursor: default;
   text-align: left;
   padding: 0rem 0.3125rem;
+  margin-right: 2.8125rem;
   position: relative;
   list-style: none;
   -webkit-transition: all 0.3s;
@@ -1732,10 +1733,6 @@ button.swiper-pagination-bullet {
     margin-left: 2.1875rem;
   }
 
-  .language__title {
-    margin-right: 4.6875rem;
-  }
-
   ._spoller-init .language__title::before,
   ._spoller-init .language__title::after {
     right: 1.5625rem;
@@ -1819,10 +1816,6 @@ button.swiper-pagination-bullet {
 
   .header__menu {
     margin-left: 0.0000000625rem;
-  }
-
-  .language__title {
-    margin-right: 2.8125rem;
   }
 
   ._spoller-init .language__title::before,
@@ -1998,18 +1991,6 @@ button.swiper-pagination-bullet {
 @supports not (margin-left: clamp( 0.0000000625rem , -0.7360672141rem  +  3.6803363828vw , 2.1875rem )) {
     .header__menu {
       margin-left: calc(0.0000000625rem + 2.1874999375 * (100vw - 20rem) / 59.4375);
-    }
-}
-
-@supports (margin-right: clamp( 2.8125rem , 2.1815851735rem  +  3.1545741325vw , 4.6875rem )) {
-    .language__title {
-      margin-right: clamp( 2.8125rem , 2.1815851735rem  +  3.1545741325vw , 4.6875rem );
-    }
-}
-
-@supports not (margin-right: clamp( 2.8125rem , 2.1815851735rem  +  3.1545741325vw , 4.6875rem )) {
-    .language__title {
-      margin-right: calc(2.8125rem + 1.875 * (100vw - 20rem) / 59.4375);
     }
 }
 
